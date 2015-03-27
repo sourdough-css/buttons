@@ -1,0 +1,31 @@
+{
+  "name": "sourdough-buttons",
+  "description": "Sourdough CSS button styles",
+  "version": "0.1.0",
+  "files": [
+    "index.styl",
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "sourdough-grid": "^0.1.0",
+    "sourdough-preprocessor": "^0.4.0",
+    "sourdough-reset": "^0.2.0",
+    "sourdough-typography": "^0.2.1"
+  },
+  "scripts": {
+    "build": "sourdough index.styl build/buttons.css",
+    "buildTest": "sourdough test/base.styl test/base.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sourdough-css/buttons.git"
+  },
+  "keywords": [
+    "buttons",
+    "browser",
+    "css",
+    "sourdough",
+    "style"
+  ]
+}

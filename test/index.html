@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Test Grid</title>
+    <link rel="stylesheet" href="base.css" charset="utf-8">
+    <link rel="stylesheet" href="../build/buttons.css" charset="utf-8">
+    <style media="screen">
+
+      .grid__item {
+        margin-bottom: 3em;
+      }
+
+      .grid__item > div {
+        margin-bottom: 1.5em;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item tablet-width--6of12">
+          <h1 class="h2">Buttons</h1>
+          <div>
+            <button type="button" class="btn">Default Button</button>
+            <a href="#" class="btn">Default Link</a>
+          </div>
+          <div>
+            <button type="button" class="btn btn--secondary">Secondary Button</button>
+            <button type="button" class="btn btn--success">Success Button</button>
+            <button type="button" class="btn btn--alert">Alert Button</button>
+          </div>
+          <div>
+            <button type="button" class="btn btn--small">Small Button</button>
+          </div>
+          <div>
+            <button type="button" class="btn btn--big">Big Button</button>
+          </div>
+          <h2 class="h4">Disabled State</h2>
+          <div>
+            <button type="button" class="btn btn--disabled">Disabled Button</button>
+            <button type="button" class="btn btn--secondary btn--disabled">Disabled Button</button>
+          </div>
+          <h2 class="h4">Block Button</h2>
+          <div>
+            <button type="button" class="btn btn--block">Block Button</button>
+          </div>
+
+        </div>
+        <div class="grid__item tablet-width--6of12">
+          <h1 class="h2">Button Group</h1>
+          <ul class="btn-group">
+            <li><button type="button" class="btn">Button 1</button></li>
+            <li><button type="button" class="btn">Button 2</button></li>
+            <li><button type="button" class="btn">Button 3</button></li>
+          </ul>
+          <h2 class="h4">Rounded group</h2>
+          <ul class="btn-group btn-group--round">
+            <li><button type="button" class="btn btn--secondary">Button 1</button></li>
+            <li><button type="button" class="btn btn--secondary">Button 2</button></li>
+            <li><button type="button" class="btn btn--secondary">Button 3</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
