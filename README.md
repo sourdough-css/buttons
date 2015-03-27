@@ -1,13 +1,13 @@
-# Sourdough CSS typography
+# Sourdough CSS buttons
 
-Typographic styles for Sourdough
+Button styles for Sourdough
 
 ## Installation
 
 Install [iojs](http://iojs.org) (comes with npm).
 
 ```
-npm install sourdough-typography
+npm install sourdough-buttons
 ```
 
 ## Build
@@ -20,6 +20,12 @@ To generate a build:
 
 ```
 npm run build
+```
+
+To create the test page:
+
+```
+npm run buildTest
 ```
 
 ## Browser support
