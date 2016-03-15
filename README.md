@@ -4,7 +4,7 @@ Button styles for Sourdough
 
 ## Installation
 
-Install [iojs](http://iojs.org) (comes with npm).
+Install [nodejs](http://nodejs.org) (comes with npm).
 
 ```
 npm install sourdough-buttons
@@ -12,18 +12,17 @@ npm install sourdough-buttons
 
 ## Build
 
+Install dependencies:
 ```
 npm install
 ```
 
-To generate a build:
-
+Run the build:
 ```
 npm run build
 ```
 
-To create the test page:
-
+Run test build:
 ```
 npm run buildTest
 ```
@@ -31,4 +30,4 @@ npm run buildTest
 ## Browser support
 
 * Modern Browsers
-* Internet Explorer 8+
+* Internet Explorer 9+

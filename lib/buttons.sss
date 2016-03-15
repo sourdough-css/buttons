@@ -1,12 +1,12 @@
-//
-// BUTTON STYLES
-// ==================
-// Sourdough CSS buttons
-//
+/*
+  BUTTON STYLES
+  ==================
+  Sourdough CSS buttons
+ */
 
-//
-// BASE SETTINGS
-//
+/*
+  BASE SETTINGS
+ */
 
 :root
   --button-radius: 5px
@@ -24,13 +24,11 @@
   --button-alert-hover: #d2363a
   --button-alert-text: #fff
 
-
-
-//
-// BASE STYLES
-// Base styles to persuade `<a>`, `<button>` and `<input>` elements to look the
-// same as each other, across various browsers.
-//
+/*
+  BASE STYLES
+  Base styles to persuade `<a>`, `<button>` and `<input>` elements to look the
+  same as each other, across various browsers.
+ */
 
 button, .btn
   display: inline-block
@@ -40,7 +38,6 @@ button, .btn
   overflow: visible
 
 .btn
-  // Presentational Styles
   height: 3em
   padding: 0 1em
   line-height: 3em
@@ -51,6 +48,7 @@ button, .btn
   border-radius: var(--button-radius)
   transition: all 250ms ease-out
 
+.btn
   &:hover
     background-color: var(--button-default-hover)
 
@@ -59,22 +57,20 @@ button, .btn
 
   &:active
     background-color: var(--button-default-bg)
-    // Override anchor active color
     color: var(--button-default-text)
 
   &:focus
     box-shadow: 0px 0px 3px var(--button-default-focus)
     outline: 0
 
-//
 // BUTTON MODIFIERS
 // Remember to add button variation modifier examples to the style guide page.
-//
 
 .btn--secondary
   color: var(--button-secondary-text)
   background-color: var(--button-secondary-bg)
 
+.btn--secondary
   &:hover
     background-color: var(--button-secondary-hover)
 
@@ -86,6 +82,7 @@ button, .btn
   color: var(--button-success-text)
   background-color: var(--button-success-bg)
 
+.btn--success
   &:hover
     background-color: var(--button-success-hover)
 
@@ -97,6 +94,7 @@ button, .btn
   color: var(--button-alert-text)
   background-color: var(--button-alert-bg)
 
+.btn--alert
   &:hover
     background-color: var(--button-alert-hover)
 
@@ -104,17 +102,13 @@ button, .btn
     background-color: var(--button-alert-bg)
     color: var(--button-alert-text)
 
-//
 // BUTTON STATES
-//
 
 .btn--disabled, .btn[disabled]
   pointer-events: none
   opacity: .7
 
-//
 // BUTTON SIZES
-//
 
 .btn--small
   font-size: 0.8125em
@@ -122,23 +116,21 @@ button, .btn
 .btn--big
   font-size: 1.25em
 
-//
 // BUTTON GROUP
 // Contains multiple buttons and adds spacing between them.
-//
 
 .btn--block
   display: block
   width: 100%
 
 
-//
 // BUTTON GROUP
 // Contains multiple buttons and adds spacing between them.
-//
 
 .btn-group
   padding-left: 0
+
+.btn-group
   &:after
     content: ""
     display: table
